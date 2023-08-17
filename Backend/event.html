@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+	<html lange = "en">
+	<head>
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content = "width=device-width,initial-scaled= 1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Server</title>
+	</head>
+    <link rel="stylesheet" href="style.css"></link>
+	<body>
+		<div class="container">"This is Server where we can check the details</div>
+	</body>
+    <button class = 'btn' onclick = "togglehide()">show/hide
+    </button>
+	<script>
+    // let para = document.getElementById('para');
+    // para.addEventListener('mouseover',function run()
+    // {
+    //     console.log("mouse inside");
+    // });
+    // para.addEventListener('mouseout',function run()
+    // {
+    //     console.log("mouse went outside");
+    // });
+    function togglehide()
+    {
+        let para = document.getElementById('para');
+        if(para.style.display != 'none')
+        {
+            para.style.display = 'none';
+        }
+        else
+        {
+            para.style.display = 'block'
+        }
+    }
+
+    </script>
+	</html>

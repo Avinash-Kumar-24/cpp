@@ -1,0 +1,2 @@
+This txt file is being used in server.js for reading purpose
+Thank You
